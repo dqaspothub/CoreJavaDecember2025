@@ -26,3 +26,30 @@ public class abi {
 
     }
 }
+
+
+/*
+public class DiscountCalculator {
+    public static void main(String[] args) {
+
+        String userType = "STUDENT";
+
+        int discount = switch (userType) {
+
+            case "EMPLOYEE" -> 30;
+
+            case "STUDENT" -> {
+                int base = 10;
+                int bonus = 5;
+                yield base + bonus; // multiple steps, so use yield
+            }
+
+            case "VIP" -> 50;
+
+            default -> 0;
+        };
+
+        System.out.println("Discount: " + discount + "%");
+    }
+}
+*/

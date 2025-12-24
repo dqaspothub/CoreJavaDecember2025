@@ -3,9 +3,17 @@ package com.java.learning.StringConcepts;
 public class StringSubstrings {
     public static void main(String[] args) {
         String str = "Java Programming";
+
+        String str1 = "From&6789";
+
+        String convertedValue = str1.substring(5);
+
+        int price  = Integer.parseInt(convertedValue);
+        System.out.println("the price value is "+ price);
+
         String sub1 = str.substring(0, 4); // "Java" (from index 0 up to, but not including, 4)
         String sub2 = str.substring(5);   // "Programming" (from index 5 to the end)
-        String sub3 = str.substring(5, 14); // "Programmin"
+        String sub3 = str.substring(5, 14); // "Programmi"
 
         System.out.println("Substring 1: " + sub1);
         System.out.println("Substring 2: " + sub2);

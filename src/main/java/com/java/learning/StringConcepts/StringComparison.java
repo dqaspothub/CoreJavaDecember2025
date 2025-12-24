@@ -17,4 +17,4 @@ public class StringComparison {
 Explanation:
 equals() compares strings for equality based on content (case-sensitive).
 equalsIgnoreCase() does the same, but ignores case.
-        == compares object references (not content). Use equals() for content comparison.*/
+== compares object references (not content). Use equals() for content comparison.*/

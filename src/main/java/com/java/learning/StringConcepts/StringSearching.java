@@ -3,7 +3,8 @@ package com.java.learning.StringConcepts;
 public class StringSearching {
     public static void main(String[] args) {
         String str = "Java Programming";
-        int index = str.indexOf("Program");
+
+        int index = str.indexOf("Java");
         System.out.println("Index of 'Program': " + index);
 
         boolean containsJava = str.contains("Java");

@@ -3,6 +3,7 @@ package com.java.learning.StringConcepts;
 public class StripExample {
     public static void main(String[] args) {
         String str = "   Java Programming   ";
+
         System.out.println("Original: '" + str + "'");
         System.out.println("Strip: '" + str.strip() + "'"); // Removes both leading and trailing whitespace
         System.out.println("Strip Leading: '" + str.stripLeading() + "'"); // Removes leading whitespace
@@ -12,4 +13,6 @@ public class StripExample {
 
 
 /*
-Explanation: These methods remove whitespace from the string. strip() removes both leading and trailing, while stripLeading() and stripTrailing() remove only one or the other.*/
+Explanation: These methods remove whitespace from the string.
+strip() removes both leading and trailing,
+while stripLeading() and stripTrailing() remove only one or the other.*/
