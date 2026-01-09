@@ -11,5 +11,11 @@ public class TestAbstraction {
         v.start();  // Car starts with key
         v.stop();
         v.fuel(); // Vehicle uses fuel
+
+        bike b = new bike();
+        b.engin();
+        b.fuel();
+        b.stop();
+        b.start();
     }
 }
